@@ -27,7 +27,7 @@ Admins manage job postings (CRUD). Users browse jobs and apply when logged in.
 docker compose up -d
 ```
 
-Postgres is exposed on port **5433** (not 5432).
+Postgres is exposed on port **5433**.
 
 Without Docker, create a database named `job_portal` and set `DATABASE_URL` in `backend/.env` to match your host/port.
 
@@ -55,11 +55,6 @@ npm run dev
 
 App: `http://localhost:5173`
 
-If PowerShell blocks `npm`:
-
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
 
 ## Environment
 
